@@ -1,0 +1,58 @@
+Arguments: 
+  /home/matheus/.nvm/versions/node/v16.15.0/bin/node /usr/bin/yarn add nativeWind
+
+PATH: 
+  /home/matheus/.cache/activestate/bin:/home/matheus/.local/ActiveState/StateTool/release:/home/matheus/.nvm/versions/node/v16.15.0/bin:/home/matheus/.cache/activestate/bin:/home/matheus/.local/ActiveState/StateTool/release:/home/matheus/.zinit/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/matheus/Android/Sdk/emulator:/home/matheus/Android/Sdk/tools:/home/matheus/Android/Sdk/tools/bin:/home/matheus/Android/Sdk/platform-tools:/home/matheus/android-studio/bin::/home/matheus/Android/Sdk/emulator:/home/matheus/Android/Sdk/tools:/home/matheus/Android/Sdk/tools/bin:/home/matheus/Android/Sdk/platform-tools:/home/matheus/android-studio/bin:/home/matheus/.yarn/bin/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.npmjs.org/nativeWind: Not found
+      at Request.params.callback [as _callback] (/usr/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/usr/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "mobile",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~48.0.15",
+      "expo-status-bar": "~1.4.4",
+      "react": "18.2.0",
+      "react-native": "0.71.7",
+      "typescript": "^4.9.4",
+      "@types/react": "~18.0.27"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
