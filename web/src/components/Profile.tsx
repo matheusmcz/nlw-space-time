@@ -17,7 +17,10 @@ export const Profile: React.FC = () => {
 
       <p className="text-sm leading-snug max-w-[140px]">
         {name}{" "}
-        <a href="" className="block text-red-400 hover:text-red-300 underline">
+        <a
+          href="/api/auth/logout"
+          className="block text-red-400 hover:text-red-300 underline"
+        >
           Quero sair
         </a>
       </p>

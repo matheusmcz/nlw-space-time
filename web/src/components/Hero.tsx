@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import nlwLogo from "../assets/nlw-spacetime-logo.svg";
 
 export const Hero: React.FC = () => {
@@ -16,12 +17,12 @@ export const Hero: React.FC = () => {
         </p>
       </div>
 
-      <a
-        href=""
+      <Link
         className="inline-block rounded-full bg-green-500 px-5 py-3 font-alt text-sm uppercase leading-none text-black hover:bg-green-600"
+        href="/memories/new"
       >
         cadastrar lembrança
-      </a>
+      </Link>
     </div>
   );
 };
